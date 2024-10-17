@@ -1,1 +1,93 @@
-Hello World! My name is Lordax!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div id="menuTabs">
+            <a href="documents/cv.pdf" target="_blank" id="profile">
+                <img src="img/profile.jpg">
+                <div id="name">Jakub Szumilak</div>
+            </a>
+            <div class="menuTab">About</div>
+            <div class="menuTab">Projects</div>
+            <div class="menuTab">Documents</div>
+            <a href="https://github.com/jakubszumilak" target="_blank"><i class="icon-github-circled"></i></a>
+        </div>
+    </nav>
+    <main>
+
+        <header id="aboutAnchor">ABOUT ME</header>
+        <article id="about">
+            <div id="aboutContent">
+                <div id="contentButtons">
+                    <div class="contentButton">Education</div>
+                    <div class="contentButton">Experience</div>
+                    <div class="contentButton contentButtonClicked">Skills</div>
+                    <div class="contentButton">Hobbies</div>
+                </div>
+                <div id="contentText">
+                </div>
+            </div>
+            <div id="aboutPicture">
+
+                <div id="pictureButtons">
+                    <div class="pictureButton"><i class="icon-circle"></i></div>
+                    <div class="pictureButton"><i class="icon-circle-thin"></i></div>
+                    <div class="pictureButton"><i class="icon-circle-thin"></i></div>
+                    <div class="pictureButton"><i class="icon-circle-thin"></i></div>
+                    <div class="pictureButton"><i class="icon-circle-thin"></i></div>
+                </div>
+                <img src="img/myPics/pic01.jpg">
+            </div>
+        </article>
+        <header>PROJECTS</header>
+        <article>
+            <div id="projectInventory">Inventory
+                <div id="inventoryGrid"></div>
+            </div>
+            <div id="projectDescription">
+                <div id="projectTab">
+                    <div style="margin: 30%; color: #626160;">Choose a project and it will appear here...</span>
+                        <!--
+                    <header>SCAVENGERS</header>
+                    <div id="description"><img src="img/wideProject01.jpg">
+                        An Unreal Engine 4 project written mainly in C++ featuring parkour, sneaking, a dynamic stamina
+                        and health system and a wide variety of interaction with the world including lock picking,
+                        opening doors and windows, random loot generators and picking up and dropping items
+                    </div>
+                    <div id="projectLinks">
+                        <a href="#"><i class="icon-github-circled"></i></a>
+                        <a href="#"><i class="icon-youtube-play" style="color: #FF0000;"></i></a>
+                        <a href="#"><i class="icon-video" style="color: #1A9FFF;"></i></a>
+                    </div>
+                    -->
+                    </div>
+                </div>
+        </article>
+        <header id="documentsAnchor">DOCUMENTS</header>
+        <article id="documents">
+            <div class="document"><a href="documents/cv.pdf" target="_blank"><img src="img/doc1.png"></a></div>
+            <div class="document"><a href="documents/mp.pdf" target="_blank"><img src="img/doc2.png"></a></div>
+            <div class="document"><a href="documents/c1.pdf" target="_blank"><img src="img/doc3.png"></a></div>
+        </article>
+    </main>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
