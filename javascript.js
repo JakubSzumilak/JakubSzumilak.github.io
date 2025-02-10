@@ -101,7 +101,7 @@ function addAboutContent(num) {
         case 0: title = 'Education'; break;
         case 1: title = 'Experience'; break;
         case 2: title = 'Skills'; break;
-        case 3: title = 'Hobbies'; break;
+        case 3: title = 'More'; break;
         default: title = 'UNKNOWN'; break;
     }
     for (let i = 0; i < aboutButtons.length; i++) {
